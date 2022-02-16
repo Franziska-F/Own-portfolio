@@ -7,7 +7,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Comforter&family=Inconsolata:wght@200&family=Poppins:wght@200;400&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Comforter&family=Inconsolata:wght@200;300&family=Poppins:wght@200;400&display=swap"
       rel="stylesheet"
     />
     <link
@@ -26,9 +26,12 @@
     <title>Franzsia Fouchs</title>
   </head>
   <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+    <nav
+      class="navbar navbar-expand-lg navbar-light fixed-top"
+      style="background-color: rgba(114, 121, 101, 0.3)"
+    >
       <div class="container-fluid">
-        <a class="navbar-brand brand-logo" href="/index.html">My art</a>
+        <a class="navbar-brand brand-logo" href="/index.html">FF </a>
         <button
           class="navbar-toggler"
           type="button"
@@ -46,7 +49,7 @@
               <a class="nav-link" href="#">About me</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">My work</a>
+              <a class="nav-link" href="#">My Work</a>
             </li>
 
             <li class="nav-item">
@@ -59,36 +62,37 @@
     <br />
 
     <div class="main">
-      <h1 class="text-center">About me</h1>
-      <div class="col-md-6">
-        <div class="work-description">
-          <h2>Hi, am Franziska!</h2>
-          <p>
-            Front-end Developer in training, aspiring to become a full-stack
-            Developer
-          </p>
-        </div>
-      </div>
-      <div class="col-md-6">
-        <div>
-          <a href="/dra.html">
-            <img
-              src="/images/img/Portrait.JPG"
-              class="img-fluid thumbnail"
-              alt="picture of a weather-app"
-          /></a>
-        </div>
-      </div>
-
-      <h1 class="text-center">My Work</h1>
+      <h1 class="text-center main-header">About me</h1>
       <div class="contrainer">
         <div class="row justify-content-envenly>">
           <div class="col-md-6">
+            <div class="work-description">
+              <h2 class="sub-header">Hi, I am Franziska!</h2>
+              <p>
+                Front-end Developer in training, aspiring to become a full-stack
+                Developer
+              </p>
+            </div>
+          </div>
+          <div class="col-md-6">
             <div>
+              <a href="/dra.html">
+                <img
+                  src="/images/img/Portrait.JPG"
+                  class="img-fluid img-thumbnail ms-4"
+                  alt="picture of a weather-app"
+              /></a>
+            </div>
+          </div>
+
+          <h1 class="text-center main-header">My Work</h1>
+
+          <div class="col-md-6">
+            <div class="work-picture me-4">
               <a href="/images/img/Art_portfolio.png">
                 <img
                   src="images/img/Art_portfolio.png"
-                  class="img-fluid thumbnail"
+                  class="img-fluid img-thumbnail"
                   alt="picture of a website"
                 />
               </a>
@@ -96,16 +100,17 @@
           </div>
           <div class="col-md-6">
             <div class="work-description">
-              <h2>Portfolio</h2>
+              <h2 class="sub-header">Portfolio</h2>
               <ul>
                 <li>HTML</li>
                 <li>CSS</li>
               </ul>
             </div>
           </div>
+
           <div class="col-md-6">
             <div class="work-description">
-              <h2>Weather-App</h2>
+              <h2 class="sub-header">Weather-App</h2>
               <ul>
                 <li>HTML</li>
                 <li>CSS</li>
@@ -113,23 +118,24 @@
               </ul>
             </div>
           </div>
+          <br />
           <div class="col-md-6">
-            <div>
+            <div class="work-picture ms-4">
               <a href="/dra.html">
                 <img
                   src="/images/img/Weather_App.png"
-                  class="img-fluid thumbnail"
+                  class="img-fluid"
                   alt="picture of a weather-app"
               /></a>
             </div>
           </div>
 
           <div class="col-md-6">
-            <div>
+            <div class="work-picture me-4">
               <a href="/miscellaneus.html">
                 <img
                   src="/images/img/Landingpage.png"
-                  class="img-fluid thumbnail"
+                  class="img-fluid img-thumbnail"
                   alt="picutre of a landing-page"
                 />
               </a>
@@ -137,7 +143,7 @@
           </div>
           <div class="col-md-6">
             <div class="work-description">
-              <h2>Landingpage</h2>
+              <h2 class="sub-header">Landingpage</h2>
               <ul>
                 <li>HTML</li>
                 <li>CSS</li>
@@ -146,6 +152,8 @@
           </div>
         </div>
       </div>
+      <h1 class="text-center main-header">Contact me</h1>
+      <h2 class="text-center sub-header">Email</h2>
     </div>
   </body>
 </html>
