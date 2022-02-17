@@ -41,3 +41,12 @@ ul {
 .col-md-6 {
   margin-top: 60px;
 }
+.email-link {
+  font-size: 20px;
+  text-decoration: none;
+  color: black;
+}
+
+#contact {
+  padding-top: 40px;
+}
